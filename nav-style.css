@@ -1,0 +1,103 @@
+body {
+    background-color: #191E29;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    justify-content: flex-end;
+    display: flex;
+    gap: 50px;
+    background-color:#191E29;
+    padding: 5px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 7px;
+}
+
+a:hover {
+    color: #06e88a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    margin: 35px 1px 1px 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #06e88a ;
+}
+
+.box {
+    height: 400px;
+    width: 800px;
+    background-color: #3f4248 ;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 28px -5px #02cd94;
+}
+
+.img {
+    height: 100%;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.img img {
+    height: 100%;
+    width: 400px;
+}
+
+.info {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.btn {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.btn a {
+    font-size: 12px;
+}
+ h2 {
+    padding: 40px;
+    text-align: center;
+    color: #06e88a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .foot{
+    color: white;
+ }
